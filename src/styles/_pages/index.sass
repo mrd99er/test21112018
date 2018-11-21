@@ -1,0 +1,116 @@
+.black
+	background: rgba(0,0,0,0.7)
+
+.home-menu
+	position: relative
+	.item
+		figure 
+			filter: grayscale(100%)
+		.title
+			min-height: 250px
+			.content
+				.link
+					text-align: center
+					a
+						background: orange
+						padding: .5rem 3rem
+						border-radius: 1.5rem
+						color: black
+						text-transform: uppercase
+						text-decoration: none
+	+media-breakpoint-up(md)
+		position: relative
+		.title
+			position: absolute
+			left: 50%
+			top: 50%
+			transform: translate(-50%, -50%)
+			display: flex
+			justify-content: center
+			align-items: center
+			text-align: center
+			.content 
+				color: #fff
+		figure 
+			filter: grayscale(100%)
+	.owl-nav
+		margin-top: 0
+		
+		button.owl-prev,
+		button.owl-next
+			font-size: 2rem
+			background: orange
+			height: 3rem
+			width: 3rem
+			&:hover
+				background: #000000
+				color: orange
+				text-decoration: none
+	.owl-dots
+		position: absolute
+		bottom: 2rem
+		left: 50%
+		transform: translateX(-50%)
+		.owl-dot
+			span
+				background: orange
+				&.active
+					span
+						background: #fff
+.home-about
+	background: url('../img/about_bg.png') no-repeat bottom
+	background-size: cover
+	padding: 2rem 0 3rem 0
+	.title
+		text-align: center
+		h2 
+			+lines-center()
+			span 
+				color: #000
+		p 
+			padding: 2rem 0
+			max-width: 400px
+			margin: auto
+			color: gray
+	.content
+		text-align: center
+		.item
+			figure 
+				img
+					&:hover
+						color: orange
+			p 
+				color: gray
+.home-work
+	background: url('../img/work_bg.png') no-repeat center bottom
+	background-size: cover
+	h2 
+		+lines-left()
+		span 
+			color: #fff
+	h3 
+		padding-top: 2rem
+	.container
+		padding: 5rem
+		color: #8c8c8c 
+		.btn
+			+btn()
+			margin: 3rem
+		.content
+			border: 2px solid #F4C93C 
+			border-radius: 5px
+			width: 100%
+			height: 100%
+			.scrollbar
+				margin: 3rem
+				float: left
+				overflow-y: scroll
+				max-height: 320px
+				&::-webkit-scrollbar
+					width: 6px
+					border-radius: 3px
+					background-color: rgba(255,255,255,0.3)
+				&::-webkit-scrollbar-thumb
+					background-color: $sun-flower
+					border-radius: 3px
+
