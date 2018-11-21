@@ -6342,7 +6342,7 @@ header .navbar-light .navbar-collapse .navbar-nav .nav-item {
   padding: 0 1rem;
   margin-right: 1px; }
   header .navbar-light .navbar-collapse .navbar-nav .nav-item:hover, header .navbar-light .navbar-collapse .navbar-nav .nav-item.active {
-    background: orange;
+    background: #F4C93C;
     border-radius: 1.5rem; }
   header .navbar-light .navbar-collapse .navbar-nav .nav-item .nav-link {
     color: #fff; }
@@ -6364,7 +6364,7 @@ footer img {
     .home-menu .item .title .content .link {
       text-align: center; }
       .home-menu .item .title .content .link a {
-        background: orange;
+        background: #F4C93C;
         padding: .5rem 3rem;
         border-radius: 1.5rem;
         color: black;
@@ -6391,13 +6391,13 @@ footer img {
     .home-menu .owl-nav button.owl-prev,
     .home-menu .owl-nav button.owl-next {
       font-size: 2rem;
-      background: orange;
+      background: #F4C93C;
       height: 3rem;
       width: 3rem; }
       .home-menu .owl-nav button.owl-prev:hover,
       .home-menu .owl-nav button.owl-next:hover {
         background: #000000;
-        color: orange;
+        color: #F4C93C;
         text-decoration: none; }
   .home-menu .owl-dots {
     position: absolute;
@@ -6405,7 +6405,7 @@ footer img {
     left: 50%;
     transform: translateX(-50%); }
     .home-menu .owl-dots .owl-dot span {
-      background: orange; }
+      background: #F4C93C; }
       .home-menu .owl-dots .owl-dot span.active span {
         background: #fff; }
 
@@ -6416,13 +6416,13 @@ footer img {
   .home-about .title {
     text-align: center; }
     .home-about .title h2 {
-      color: orange;
+      color: #F4C93C;
       position: relative;
       text-transform: uppercase; }
       .home-about .title h2:before {
         content: '';
         display: block;
-        background: orange;
+        background: #F4C93C;
         width: 100px;
         height: 5px;
         border-radius: 2.5px;
@@ -6440,7 +6440,7 @@ footer img {
   .home-about .content {
     text-align: center; }
     .home-about .content .item figure img:hover {
-      color: orange; }
+      color: #F4C93C; }
     .home-about .content .item p {
       color: gray; }
 
@@ -6448,13 +6448,13 @@ footer img {
   background: url("../img/work_bg.png") no-repeat center bottom;
   background-size: cover; }
   .home-work h2 {
-    color: orange;
+    color: #F4C93C;
     position: relative;
     text-transform: uppercase; }
     .home-work h2:before {
       content: '';
       display: block;
-      background: orange;
+      background: #F4C93C;
       width: 100px;
       height: 5px;
       border-radius: 2.5px;
