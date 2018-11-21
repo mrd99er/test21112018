@@ -6338,13 +6338,19 @@ header .navbar-light .navbar-toggler {
   header .navbar-light .navbar-brand img {
     max-height: 3rem; } }
 
-header .navbar-light .navbar-collapse .navbar-nav .nav-item .nav-link {
-  color: #fff; }
+header .navbar-light .navbar-collapse .navbar-nav .nav-item {
+  padding: 0 1rem;
+  margin-right: 1px; }
+  header .navbar-light .navbar-collapse .navbar-nav .nav-item:hover, header .navbar-light .navbar-collapse .navbar-nav .nav-item.active {
+    background: orange;
+    border-radius: 1.5rem; }
+  header .navbar-light .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #fff; }
 
 footer img {
   max-width: 200px; }
 
-.black {
+.navdark {
   background: rgba(0, 0, 0, 0.7); }
 
 .home-menu {
@@ -6353,6 +6359,8 @@ footer img {
     filter: grayscale(100%); }
   .home-menu .item .title {
     min-height: 250px; }
+    .home-menu .item .title .content p {
+      max-width: 700px; }
     .home-menu .item .title .content .link {
       text-align: center; }
       .home-menu .item .title .content .link a {

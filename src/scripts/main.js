@@ -2,10 +2,10 @@
 $(document).ready(function(){
 	$(window).on('scroll', function(){
 		if($(window).scrollTop()) {
-			$('header').addClass('black');
+			$('header').addClass('navdark');
 		}
 		else {
-			$('header').removeClass('black');
+			$('header').removeClass('navdark');
 		}
 	});
 	$('.home-menu').owlCarousel({
