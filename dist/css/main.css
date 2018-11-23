@@ -6411,8 +6411,7 @@ footer img {
 
 .home-about {
   background: url("../img/about_bg.png") no-repeat bottom;
-  background-size: cover;
-  padding: 2rem 0 3rem 0; }
+  background-size: cover; }
   .home-about .title {
     text-align: center; }
     .home-about .title h2 {
